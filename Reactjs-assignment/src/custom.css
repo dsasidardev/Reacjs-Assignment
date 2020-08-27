@@ -1,0 +1,53 @@
+.list-services
+{
+    display: block;
+    list-style: none;
+    cursor: pointer;
+}
+.list-services:hover
+{
+   color:#fff;
+}
+
+.display-list-provider
+{
+  
+    height: 500px;
+    width: 50%;
+    overflow: auto;
+    display: inline-block;
+    background: rgb(120, 118, 126);
+    margin: 58px;
+    overflow-x: hidden;
+}
+
+.display-list-services
+{
+    height: 500px;
+    width: 30%;
+    overflow: auto;
+    display: inline-block;
+    background: rgb(159, 170, 168);
+    margin: 58px;
+}
+.provider-profile
+{
+display: inline-flex;
+width: 100%;
+margin: 10px;
+
+}
+
+
+.provider-profile-details
+{
+display: inline-block;
+}
+.provider-profile-image
+{
+    width: 16%;
+}
+.provider-profile-image > img
+{
+    height: 100px;
+}
